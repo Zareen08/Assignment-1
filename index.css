@@ -222,3 +222,64 @@ margin-inline: auto;
     font-family: 16px;
     color: rgba(14, 14, 14, 0.6);
 } 
+
+.opinion{
+    max-width: 1280px;
+    min-height: 481px;    
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.tab{
+    min-height: 409px;
+    padding: 32px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.08), -3px -3px 7px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    border:  #D5D6D8 solid 1px; 
+    border-color: transparent;
+}
+table,td,tr{
+    border: 2px rgba(14, 14, 14, 0.15) solid;
+    border-collapse: collapse;
+}
+.tab  div{
+    display: flex;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-between;
+    height: 72px;
+    background-color: #C6E4D6;
+    
+ }
+
+td{
+font-size: 16px;
+font-weight: 650px;
+}
+
+.q{
+   width: 1017px;
+    height: 92px;
+    padding: 24px;
+}
+
+.a{ 
+    width: 200px;
+    height: 92px; 
+    padding: 24px;
+    font-size: 16px;
+    
+}
+
+.a button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    height: 44px;
+    padding: 14px 10px;
+    border-radius: 4px;
+    background-color: rgba(9, 161, 92, 0.15);
+}
