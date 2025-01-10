@@ -8,6 +8,9 @@ body{
   font-variation-settings:
     "wdth" 100;
 }
+
+/* header section */
+ 
 nav{
 display: flex;
 justify-content: space-around;
@@ -79,4 +82,48 @@ nav button:hover{
 .btn-1:hover{
     color: #006A50;
     background-color: white;
+}
+
+/* main section */
+section{
+    margin-top: 50px;
+}
+
+.pillars{
+max-width: 1280px;
+min-height: 324px;    
+justify-content: center;
+align-items: center;
+margin-inline: auto;
+}
+
+
+.pillars .cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.card{
+    height: 244px;
+    width: 302px;
+    border: #D5D6D8 solid 1px;
+    padding: 24px;
+    border-radius:16px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.08);
+
+}
+
+.card img{
+    width: 50px;
+}
+
+.card h5{
+    font-size: 20px;
+}
+
+.card p{
+    font-size: 16px;
 }
