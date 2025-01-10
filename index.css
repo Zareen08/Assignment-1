@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+display: flex;
+justify-content: space-around;
+padding: 16px;
+max-width: 1600px;
+min-height:100px ;
+align-items: center;
+}
+
+nav h2{
+  font-size: 32px;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+button{
+    width: 116px;
+    height: 52px;
+    border-radius: 8px;
+    color: #006A50;
+    padding: 15px 30px;
+    border-color: #006A50;
+}
