@@ -139,12 +139,15 @@ margin-inline: auto;
     margin-inline: auto;
     
 }
-.vision p{
+p{
     line-height: 24px;
     font-size: 16px;
     margin-bottom: 32px;
 }
-
+h3{
+    font-weight: bold;
+    font-size: 40px;
+}
 
 .p-1{
     padding: 32px;
@@ -255,7 +258,7 @@ table,td,tr{
  }
 
 td{
-font-size: 16px;
+
 font-weight: 650px;
 }
 
@@ -266,13 +269,17 @@ font-weight: 650px;
 }
 
 .a{ 
+    align-items: center;
+    justify-content: center;
     width: 200px;
     height: 92px; 
     padding: 24px;
     font-size: 16px;
     
 }
-
+.a button p{
+    margin: 0;
+}
 .a button{
     display: flex;
     align-items: center;
@@ -283,3 +290,60 @@ font-weight: 650px;
     border-radius: 4px;
     background-color: rgba(9, 161, 92, 0.15);
 }
+
+.news{
+
+    max-width: 1280px;
+    min-height: 1406px;    
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.newss{
+    padding: 48px;
+    min-height: 402px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    border: #D5D6D8 solid 1px;
+    margin-top: 24px;
+    border-radius:16px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.08);
+background-color: transparent;
+
+}
+
+.cont{
+    max-width: 744px;
+    min-height: 290px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.cont h5{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+
+}
+.cont img{
+    margin-top: 5px;
+    width: 134px;
+    height: 40px;
+}
+.cont p, .date{
+    margin-block: 12px;
+    margin-inline: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.pho img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+
