@@ -346,4 +346,58 @@ background-color: transparent;
     border-radius: 24px;
 }
 
+.donate{
+   
+    max-width: 1280px;
+    min-height: 464px;
+    margin-inline: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-block: 32px;
+}
+.donate .title{
+    min-height: 120px; 
+    max-width:  100%;
+    
+}
+.car{
+    height: 128px; 
+}
+
+.cardss{
+    height: 128px;
+    width: 240px;
+    border: #D5D6D8 solid 1px;
+   gap: 24px;
+    border-radius:16px ;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.08);
+
+}
+
+.cardss p{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: auto;
+    text-align: center;
+}
+
+input[type="number"]{
+    width: 90%;
+    height: 64px;
+    padding: 20px 40px;
+    margin-block: 32px;
+    border-color: transparent;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.08);
+}
+input[type="number"]::placeholder{
+    color: rgba(14, 14, 14, 0.15);
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.cardss:hover{
+    background-color: beige;
+}
 
