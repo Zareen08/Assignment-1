@@ -394,6 +394,7 @@ input[type="number"]::placeholder{
     color: rgba(14, 14, 14, 0.15);
     font-size: 20px;
     text-align: center;
+    border-radius: 5px;
     
 }
 
@@ -401,3 +402,33 @@ input[type="number"]::placeholder{
     background-color: beige;
 }
 
+.subscribe{
+    max-width: 1280px;
+    margin-inline: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    min-height: 395px;
+    background-color: #C6E4D6;
+    
+}
+
+.te{
+    padding-top: 10px;
+    margin: auto;
+    width: 750px;
+    height: 235px;
+    gap: 24px;
+
+}
+ form{
+    display: flex;
+ }
+ input[type="email"]{
+    width: 600px;
+    height: 55px;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.08);
+}
